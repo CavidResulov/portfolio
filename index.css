@@ -1,0 +1,230 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font: normal 75% Arial, Helvetica, sans-serif;
+}
+
+header {
+  height: 700px;
+}
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 700px;
+  background-color: #000;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.btn-blue {
+  border: 2px solid blue;
+  border-radius: 14px;
+  color: #ffff;
+  background-color: blue;
+  width: 100px;
+  margin-top: 50px;
+  cursor: pointer;
+}
+
+.two-buttons {
+  margin-left: 900px;
+}
+
+.btn-contact {
+  border: 2px solid blue;
+  border-radius: 2px;
+  color: #ffff;
+  background-color: blue;
+  height: 34px;
+  width: 100px;
+  margin-top: 50px;
+  cursor: pointer;
+}
+
+.btn-cv {
+  border: 2px solid blue;
+  border-radius: 2px;
+  height: 34px;
+  color: #ffff;
+  background-color: blue;
+  width: 100px;
+  margin-top: 50px;
+  cursor: pointer;
+}
+
+.btn-and-links {
+  display: flex;
+  justify-content: space-around;
+}
+
+.ul-links {
+  display: flex;
+}
+
+.nav-link-item {
+  font-size: 14px;
+  color: #ffff;
+  list-style: none;
+  display: block;
+  padding: 4px;
+  cursor: pointer;
+}
+
+.nav-link-item:hover {
+  color: blue;
+  transition: 0.3s;
+}
+
+.salam {
+  color: #ffff;
+  text-align: center;
+  margin-top: 150px;
+  font-size: 30px;
+}
+
+.frontend {
+  color: #ffff;
+  text-align: center;
+  margin-top: 70px;
+  margin-left: 400px;
+  font-size: 24px;
+}
+
+.about-me {
+  height: 400px;
+}
+
+.web-page-right p {
+  color: #008000;
+}
+
+.web-page-right h1 {
+  color: gray;
+  margin-top: 50px;
+  font-size: 30px;
+}
+
+.about-me {
+  display: flex;
+  justify-content: space-around;
+}
+
+.web-page-left {
+  margin-top: 50px;
+}
+
+.long-text p {
+  font-size: 16px;
+  color: gray;
+}
+
+.education {
+  height: 400px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.card-first {
+  width: 350px;
+  height: 180px;
+  box-shadow: 4px 2px 4px 4px blue;
+}
+
+.card-second {
+  width: 350px;
+  height: 180px;
+  box-shadow: 4px 2px 4px 4px blue;
+  margin-top: 30px;
+}
+
+.card-third {
+  width: 350px;
+  height: 180px;
+  box-shadow: 4px 2px 4px 4px blue;
+}
+
+.card-fourth {
+  width: 350px;
+  height: 180px;
+  box-shadow: 4px 2px 4px 4px blue;
+  margin-top: 30px;
+}
+
+.last-blog {
+  display: flex;
+  margin-top: 100px;
+}
+
+.three-blog-texts {
+  padding: 10px;
+}
+
+.blog-texts-one p {
+  font-size: 12px;
+  word-wrap: inherit;
+}
+
+.blog-texts-two p {
+  word-wrap: inherit;
+  margin-top: 10px;
+}
+
+.blog-texts-three p {
+  word-wrap: inherit;
+  margin-top: 100px;
+}
+
+.three-images {
+  display: flex;
+  flex-direction: column;
+}
+
+.three-images img {
+  height: 100px;
+  width: 150px;
+  padding: 10px;
+}
+
+.blog-texts-one {
+  padding: 30px;
+  font-size: 40px;
+  text-align: center;
+  background: white;
+}
+
+.learned-skills {
+  height: 200px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.text-skills p {
+  font-size: 22px;
+}
+
+.learned-skills i {
+  font-size: 50px;
+}
+
+footer {
+  background-image: url(./image/bg3.jpg);
+  height: 400px;
+}
+
+.social-media i {
+  color: #008000;
+  font-size: 70px;
+  margin-left: 200px;
+  margin-top: 200px;
+}
